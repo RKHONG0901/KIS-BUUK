@@ -1,0 +1,55 @@
+.title{
+	text-align:left;
+	font-size:20px;
+	font-weight:bold;
+}
+.menu{
+	text-align:center;
+	margin-top:50px;
+	font-size:30px;
+}
+.community{
+	text-align:center;
+	margin-top:50px;
+	font-size:30px;
+}
+.ranking{
+	text-align:center;
+	margin-top:50px;
+	font-size:30px;
+}
+.rate{
+	text-align:center;
+	margin-top:1;
+}
+.todaymenu{
+ 	position:relative;
+    background:#B2CCFF;
+	margin-top:60px;
+    width:430px;
+	height:300px;
+    max-width: 100%;
+    text-align: center;
+	padding: 12px;
+    color:black;
+}
+.todaymenu:before{
+	content:"";
+    position:absolute;
+    top:0;
+    right:0;
+    border-width:0 16px 16px 0; 
+    border-style:solid;
+    border-color: white #ADD8E6; 
+    background: #0054FF; 
+    display:block; width:0;   
+}
+textarea{
+	font-size:14px; 
+	text-align:center;
+	font-weight:bold;
+	width:431px;
+	height:175px;
+	resize:none;
+}
+
